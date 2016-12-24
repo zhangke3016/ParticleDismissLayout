@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                particleAnimator.boom(getWindow().getDecorView().findViewById(android.R.id.content));//
+                particleAnimator.boom(v);//getWindow().getDecorView().findViewById(android.R.id.content)
             }
         });
 
